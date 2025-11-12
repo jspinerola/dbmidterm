@@ -1,1 +1,3 @@
 streamlit
+supabase
+st_supabase_connection
