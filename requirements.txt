@@ -1,6 +1,6 @@
-streamlit>=1.25.0
-psycopg2-binary>=2.9.7
-python-dotenv>=1.0.0
-pandas>=2.1.0
-streamlit-elements>=0.4.0
-numpy>=1.25.0
+streamlit
+psycopg2-binary
+python-dotenv
+pandas
+streamlit-elements
+numpy
