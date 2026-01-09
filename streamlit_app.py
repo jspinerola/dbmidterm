@@ -10,13 +10,11 @@ from streamlit_elements import elements, dashboard, mui, nivo
 st.set_page_config(layout="wide")
 st.title("FoodReach Dashboard")
 
-load_dotenv()
-
-USER = os.getenv("user")
-PASSWORD = os.getenv("password")
-HOST = os.getenv("host")
-DB_NAME = os.getenv("dbName")
-PORT = os.getenv("port")
+USER = st.secrets["USER"]
+PASSWORD = st.secrets["PASSWORD"]
+HOST = st.secrets["HOST"]
+DB_NAME = st.secrets["DBNAME"]
+PORT = st.secrets["PORT"]
 
 def convert_decimal(obj):
     if isinstance(obj, decimal.Decimal):
